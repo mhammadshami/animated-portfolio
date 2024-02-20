@@ -4,8 +4,38 @@
   position: relative;
   display: flex;
   align-items: center;
-
+ justify-content: center;
+ overflow: hidden;
+ 
   h1 {
     font-size: 100px;
+  }
+
+  .mountains {
+    background-image: url('/mountains.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: bottom;
+    z-index: 3;
+  }
+  .planets {
+    background-image: url('/planets.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: bottom;
+    z-index: 2;
+  }
+  .stars {
+    background-image: url('/stars.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: bottom;
+    z-index: 1;
   }
 }
