@@ -23,7 +23,6 @@ const textVariants = {
     },
   },
 };
-
 const sliderVariants = {
   initial: {
     x: 0,
@@ -32,7 +31,7 @@ const sliderVariants = {
     x: "-220%",
     transition: {
       repeat: Infinity,
-      repeatType: "mirror",
+      repeatType:"mirror",
       duration: 20,
     },
   },
@@ -42,16 +41,15 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="wrapper">
-        {" "}
         <motion.div
           className="textContainer"
           variants={textVariants}
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>HARVEY TYlOR</motion.h2>
+          <motion.h2 variants={textVariants}>HARVEY TYLER</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web developer And UI developer
+            Web developer and UI designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
